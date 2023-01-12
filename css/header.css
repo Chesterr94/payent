@@ -1,10 +1,13 @@
 .header-container{
 	background-image: url("/img/header/img-1.png");
-	width: 1280px;
 	height: 832px;
+	margin: 0 auto;
+	width: 1280px;
 }
 
 .header-vraper{
+	width: 1216px;
+	margin: 0 auto;
 	padding-top: 214px;
 	padding-left: 40px;
 }
@@ -53,9 +56,12 @@
 }
 
 .header-vraper-bottons-list-li::after{
-	position: absolute;
 	content: "";
 	background-image: url("/img/header/buttons.svg");
+	background-size: contain;
+	position: absolute;
+	width: 9px;
+	height: 10px;
 }
 
 .header-vraper-bottons-list-li-button-2{
@@ -72,5 +78,8 @@
 	position: absolute;
 	content: "";
 	background-image: url("/img/header/buttons.svg");
+	background-size: contain;
+	width: 9px;
+	height: 10px;
 }
 
