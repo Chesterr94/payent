@@ -250,14 +250,13 @@ padding-bottom: 0px;
 
 .card{
 	width: 1216px;
+	padding-bottom: 136px;
+	padding-top: 146px;
 	margin: 0 auto;
 }
 
-.card-emploers{
-	padding-top: 104px;
-}
-
 .title-h2{
+	width: 100%;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -269,8 +268,12 @@ padding-bottom: 0px;
 }
 
 .card-container{
-	display: flex;
 	width: 500px;
+}
+
+.card-emploers-text-block-div{
+	display: flex;
+	gap: 15px;
 }
 
 .card-text{
@@ -282,4 +285,235 @@ padding-bottom: 0px;
 	letter-spacing: 0.4px;
 	color: #0A044B;
 	padding-bottom: 23px;
+}
+
+.card-button{
+	width: 145px;
+	height: 44px;
+	background: #5D3EA8;
+	border-radius: 8px;
+	border: #5D3EA8;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+
+
+.card-Health-Systems{
+	display: flex;
+	width: 1216px;
+	margin: 0 auto;
+}
+
+
+.card-container-health{
+	display: flex;
+	width: 1216px;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+	padding-bottom: 325px;
+
+}
+
+.card-Health-Systems-title-h2{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 33px;
+	line-height: 43px;
+	letter-spacing: 0.5px;
+	color: #0A044B;
+	padding-bottom: 26px;
+}
+
+.card-Health-Systems-svg{
+	width: 50%;
+	height: 480px;
+}
+
+.card-Health-Systems-text{
+	width: 510px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	color: #0A044B;	
+	padding-bottom: 45px;
+}
+
+.div-card-quote{
+	display: block;
+	margin:  0 auto;
+	width: 1006px;	
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 43px;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #000000;
+}
+
+.div-card-quote-text{
+	margin:  0 auto;
+	width: 443px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: 0.4px;
+	color: #000000;
+	padding-bottom: 320px;
+}
+
+.div-card-team{
+	width: 1216px;
+	margin: 0 auto;
+	padding-bottom: 304px;
+}
+
+.div-card-team-wraper{
+	display: flex;
+
+}
+
+.div-card-team-wraper-block-1{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.block-img-1{
+	display: flex;
+	height: 540px;
+	justify-content: flex-end;
+}
+
+.block-img-2{
+	display: flex;
+	flex-wrap: wrap;
+	height: 540px;
+	flex-direction: column;
+}
+
+.div-card-team-wraper-block-1-img-1{
+	width: 256px;
+	height: 419px;
+	margin-top: 100px;
+	margin-right: 20px;
+}
+
+.div-card-team-wraper-block-1-img-2{
+	width: 264px;
+	height: 208px;
+	margin-bottom: 37px;
+}
+
+.div-card-team-wraper-block-1-img-3{
+	width: 210px;
+	height: 166px;
+	margin: 0 auto;
+}
+
+.div-card-team-wraper-block-2{
+	display: flex;
+	flex-direction: column;
+	width: 542px;
+	padding-left: 112px;
+	justify-content: center;
+}
+
+.div-card-team-wraper-block-2-title-h2{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 47px;
+	line-height: 58px;	
+	letter-spacing: 1px;
+	color: #0A044B;
+	padding-bottom: 26px;
+}
+
+.div-card-team-wraper-block-2-text{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	color: #0A044B;
+	padding-bottom: 26px;
+}
+
+.div-card-team-wraper-block-2-text:last-child{
+	padding-bottom: 28px;
+}
+
+.div-card-team-wraper-block-2-button {
+	width: 166px;
+	height: 44px;
+	background: #5D3EA8;
+	border-color: #5D3EA8;
+	border-radius: 8px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.div-card-footer{
+	display: flex;
+	width: 100%;
+	background: #5D3EA8;
+	border-radius: 0px 0px 24px 24px;
+}
+
+.div-card-footer-container{
+	display: flex;
+	width: 1216px;
+	margin: 0 auto;
+}
+
+.div-card-footer-text-block{
+	width: 711px;
+	color: #FFFFFF;
+	padding-top: 96px;
+}
+
+.sectioncard-footer-text-title{
+	width: 100%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 45px;
+	line-height: 58px;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	margin:  0 auto;
+	padding-bottom: 30px;
+}
+
+.sectioncard-footer-text-placese{
+	width: 358px;
+	height: 48px;
+	border: 1px solid #EBEEF7;
+	border-radius: 8px;
+	background: #5D3EA8;
+	gap: 16px;
+	margin-bottom: 16px;
+}
+
+.sectioncard-footer-text-placese-2{
+	width: 106px;
+	height: 48px;
+	background: #FFFFFF;
+	border-radius: 8px;
+	box-shadow: none;
 }

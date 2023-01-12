@@ -1,0 +1,19 @@
+.footer{
+  width: 100%;
+  background: #0A044B;
+}
+
+.footer-wraper{
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  width: 1216px;
+  margin: 0 auto;
+}
+
+.footer-wraper-block-1{
+  width: 108px;
+  padding-top: 150px;
+  gap: 16px;
+
+}
