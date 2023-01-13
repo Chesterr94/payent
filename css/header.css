@@ -14,20 +14,22 @@
 
 .header-vraper-title-h1{
 	width: 453px;
+	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 62px;
 	line-height: 70px;
-	letter-spacing: 1px;
+	letter-spacing: 1px;	
 	color: #0A044B;
 }
 
 .header-vraper-text{
 	width: 477px;
+	font-family: 'Inter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 29px;	
+	line-height: 29px;
 	letter-spacing: 0.4px;
 	color: #0A044B;
 	padding-bottom: 40px;
@@ -53,6 +55,7 @@
 .header-vraper-bottons-list-li{
 	display: block;
 	position: relative;
+	
 }
 
 .header-vraper-bottons-list-li::after{
