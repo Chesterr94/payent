@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "inter";
+  src: url("../fons/inter.woff2") format("woff2"),
+  url("../fons/inter.woff") format("woff");
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../fons/roboto.woff2") format("woff2"),
+  url("../fons/roboto.woff") format("woff");
+}
+
 html {
   position: relative;
   box-sizing: border-box;
