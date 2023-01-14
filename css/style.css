@@ -9,7 +9,7 @@ body {
 }
 
 blockquote {
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
 }
 
 a {

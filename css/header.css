@@ -20,7 +20,7 @@
 	font-size: 62px;
 	line-height: 70px;
 	letter-spacing: 1px;	
-	color: #0A044B;
+	color: var(--color-black,#0A044B);
 }
 
 .header-vraper-text{
@@ -31,7 +31,7 @@
 	font-size: 16px;
 	line-height: 29px;
 	letter-spacing: 0.4px;
-	color: #0A044B;
+	color: var(--color-black,#0A044B);
 	padding-bottom: 40px;
 }
 
@@ -49,22 +49,27 @@
 	background: #5D3EA8;
 	border-radius: 8px;
 	border: #5D3EA8;
-	color: #FFFFFF;
+	color: var(--color-white,##FFFFFF);
+}
+
+.button{
+	padding-right: 10px;
+}
+
+.button::after{
+	position: absolute;
+	content: "";
+	transform: translate(+70%,+45%);
+	background-image: url("/img/button/Vector.svg");
+	background-size: contain;
+	width: 10px;
+	height: 11px;
 }
 
 .header-vraper-bottons-list-li{
 	display: block;
 	position: relative;
 	
-}
-
-.header-vraper-bottons-list-li::after{
-	content: "";
-	background-image: url("/img/header/buttons.svg");
-	background-size: contain;
-	position: absolute;
-	width: 9px;
-	height: 10px;
 }
 
 .header-vraper-bottons-list-li-button-2{
@@ -80,9 +85,10 @@
 .header-vraper-bottons-list-li-button-2::after{
 	position: absolute;
 	content: "";
+	transform: translate(+70%,+40%);
 	background-image: url("/img/header/buttons.svg");
 	background-size: contain;
-	width: 9px;
-	height: 10px;
+	width: 10px;
+	height: 11px;
 }
 

@@ -1,15 +1,16 @@
 .footer{
   width: 100%;
-  background: #0A044B;
+  background: var(--color-black,#0A044B);
 }
 
 .footer-wraper{
   display: flex;
   flex-wrap: wrap;
-  color: white;
+  color: var(--color-white,#FFFFFF);
   width: 1216px;
   margin: 0 auto;
   padding-bottom: 64px;
+  border-bottom: 1px solid #CECDDB
 }
 
 .footer-wraper-block-1{
@@ -35,6 +36,7 @@
   padding-top: 80px;
   padding-left: 258px;
   justify-content: space-between;
+  
 }
 
 .footer-wraper-block-list{
@@ -42,7 +44,10 @@
   flex-direction: column;
   gap: 16px;
   padding-right: 116px;
+}
 
+.footer-wraper-block-list:last-child{
+  padding-right: 0px;
 }
 
 .footer-wraper-block-list-li{
@@ -53,7 +58,7 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
+  color: var(--color-white,#FFFFFF);
 }
 
 .footer-wraper-block-list-li:first-child{
@@ -62,7 +67,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #FFFFFF;
+  color: var(--color-white,#FFFFFF);
   padding-bottom: 8px;
 }
 
@@ -72,18 +77,22 @@
   margin: 0 auto;
   padding-top: 32px;
   padding-bottom: 80px;
-  color: #FFFFFF;
+  color: var(--color-white,#FFFFFF);
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
-  color: #FFFFFF;
-  gap: 8px;
 }
 
 .footer-block-sub{
   display: flex;
-  width: 300px;
+  width: 400px;
   gap: 24px;
+}
+
+.footer-block-text{
+  display: block;
+  padding-bottom: 8px;
+  
 }
