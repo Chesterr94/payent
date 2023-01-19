@@ -84,3 +84,21 @@ iframe {
   padding: 0 30px;
   margin: 0 auto;
 }
+
+
+a {
+  color: #FFFFFF;
+}
+
+figcaption {
+  text-align: center;
+}
+
+section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+fieldset{
+  border:0 none;
+}

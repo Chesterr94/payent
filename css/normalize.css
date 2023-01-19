@@ -347,3 +347,33 @@ template {
 [hidden] {
   display: none;
 }
+/*---------------normaize.css  Модифицирован для проекта-------------------- */
+blockquote {
+/* text-transform: uppercase;*/
+}
+
+a {
+  color: #FFFFFF;
+}
+
+figcaption {
+  text-align: center;
+}
+
+section {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+fieldset{
+  border:0 none;
+}
+
+blockquote {
+  /* text-transform: uppercase;*/
+}
+
+html {
+  position: relative;
+  box-sizing: border-box;
+}
