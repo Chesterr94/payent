@@ -10,7 +10,7 @@
   width: 1216px;
   margin: 0 auto;
   padding-bottom: 64px;
-  border-bottom: 1px solid #CECDDB
+  border-bottom: 1px solid var(--color-gray,#CECDDB);
 }
 
 .footer-wraper-block-1{

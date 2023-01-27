@@ -80,14 +80,14 @@ iframe {
 */
 
 .container {
-  max-width: 1240px;
+  max-width: 1276px;
   padding: 0 30px;
   margin: 0 auto;
 }
 
 
 a {
-  color: #FFFFFF;
+  color: var(--color-white,#FFFFFF);
 }
 
 figcaption {
@@ -101,4 +101,14 @@ section {
 
 fieldset{
   border:0 none;
+}
+
+.button{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+  border-radius: 8px;
 }

@@ -39,6 +39,12 @@
 	display: flex;
 	flex-wrap: wrap;
 	gap: 40px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
 }
 
 .header-vraper-bottons-list-li-button-1{
@@ -47,7 +53,6 @@
 	width: 189px;
 	height: 44px;
 	background: var(--color-violet,#5D3EA8);
-	border-radius: 8px;
 	border: var(--color-violet,#5D3EA8);
 	color: var(--color-white,#FFFFFF);
 }
@@ -77,6 +82,12 @@
 	position: relative;
 	width: 116px;
 	height: 48px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
 	border:none;
 	background: inherit;
 	color: ;
