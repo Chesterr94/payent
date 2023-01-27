@@ -7,9 +7,10 @@
   display: flex;
   flex-wrap: wrap;
   color: var(--color-white,#FFFFFF);
-  width: 1216px;
+  width: 100%;
+	max-width: 1280px;
+	padding: 0 30px 64px;
   margin: 0 auto;
-  padding-bottom: 64px;
   border-bottom: 1px solid var(--color-gray,#CECDDB);
 }
 
@@ -73,10 +74,10 @@
 
 .footer-block{
   display: block;
-  width: 1216px;
+  width: 100%;
+	max-width: 1280px;
+	padding: 32px 30px 80px;
   margin: 0 auto;
-  padding-top: 32px;
-  padding-bottom: 80px;
   color: var(--color-white,#FFFFFF);
   font-family: 'Inter';
   font-style: normal;

@@ -7,7 +7,8 @@
 
 .main-container-section-1{
 	display: flex;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	flex-wrap:wrap;
 	justify-content: space-between;
 	padding: 120px 30px 0px;
@@ -111,7 +112,8 @@
 
 .main-container-section-2-container{
 	display: flex;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	padding: 0 30px;
 	justify-content: space-between	;
 	flex-wrap: wrap;
@@ -177,7 +179,8 @@
 
 .main-container-section-3{
 	display: inline-flex;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
 	flex-direction: column;
 	padding: 60px 30px 0px;
@@ -247,7 +250,8 @@
 }
 
 .card{
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
 	margin: 0 auto;
 	border-bottom: 1px solid var(--color-gray,#CECDDB);
 }
@@ -307,18 +311,21 @@
 
 .card-Health-Systems{
 	display: flex;
-	width: 1216px;
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 30px;
 	margin: 0 auto;
 }
 
 
 .card-container-health{
 	display: flex;
-	width: 1216px;
+	width: 100%;
+	max-width: 1280px;
+	padding: 112px 30px 325px;
 	flex-wrap: wrap;
 	justify-content:space-between;
 	align-items: center;
-	padding-bottom: 325px;
 
 }
 
@@ -347,7 +354,6 @@
 	line-height: 26px;
 	letter-spacing: 0.4px;
 	color: var(--color-black,#0A044B);	
-	padding-bottom: 45px;
 }
 
 .div-card-quote{
@@ -368,12 +374,6 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: #c4ee0c;	
-}
-
-.span-2{
-	width: 8px;
-	height: 8px;
-	background-color: #c4ee0c;
 }
 
 .div-card-quote-blockquote{
@@ -398,11 +398,20 @@
 	text-align: center;
 	letter-spacing: 0.4px;
 	color: var(--color-amolet-black,#000000);
-	padding-bottom: 320px;
+	padding-bottom: 46px;
+}
+
+.span-2{
+	width: 8px;
+	height: 8px;
+	background-color: #c4ee0c;
+	margin-bottom: 266px;
 }
 
 .div-card-team{
-	width: 1216px;
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 30px;
 	margin: 0 auto;
 	padding-bottom: 304px;
 }
@@ -505,7 +514,9 @@
 
 .div-card-footer-container{
 	display: flex;
-	width: 1216px;
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 30px;
 	margin: 0 auto;
 	justify-content: space-between;
 }
@@ -527,6 +538,15 @@
 	color: var(--color-white,#FFFFFF);
 	margin:  0 auto;
 	padding-bottom: 30px;
+}
+
+.sectioncard-footer-text-litle{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 18px;
+	color: var(--color-white,#FFFFFF);
 }
 
 .sectioncard-footer-text-placese{

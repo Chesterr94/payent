@@ -2,14 +2,16 @@
 	background-image: url("/img/header/img-1.png");
 	height: 832px;
 	margin: 0 auto;
-	width: 1280px;
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 30px;
 }
 
 .header-vraper{
-	width: 1216px;
+	width: 100%;
+	max-width: 1280px;
+	padding: 215px 40px 0px;
 	margin: 0 auto;
-	padding-top: 214px;
-	padding-left: 40px;
 }
 
 .header-vraper-title-h1{
