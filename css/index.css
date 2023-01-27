@@ -2,6 +2,10 @@
 @import url("/css/normalize.css");
 @import url("/css/style.css");
 @import url("/css/header.css");
-@import url("/css/main.css");
+@import url("/css/main-container-section.css");
 @import url("/css/footer.css");
 @import url("/css/var.css");
+@import url("/css/cards.css");
+@import url("/css/div-card-quote.css");
+@import url("/css/div-card-team.css");
+@import url("/css/div-card-footer.css");

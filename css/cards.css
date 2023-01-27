@@ -1,0 +1,106 @@
+.card{
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	border-bottom: 1px solid var(--color-gray,#CECDDB);
+}
+
+.card-emploers{
+	padding: 104px 30px 136px;
+}
+
+.card-insurers{
+	padding: 148px 50px 218px;
+}
+
+.card-container-health{
+	padding: 230px 30px 389px;
+}
+.title-h2{
+	width: 100%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 33px;
+	line-height: 43px;
+	letter-spacing: 0.5px;
+	color: var(--color-black,#0A044B);
+	padding-bottom: 26px;
+}
+
+.card-container{
+	width: 500px;
+}
+
+.card-emploers-text-block-div{
+	display: flex;
+	gap: 15px;
+}
+
+.card-text{
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	color: var(--color-black,#0A044B);
+	padding-bottom: 23px;
+}
+
+.card-button{
+	width: 145px;
+	height: 44px;
+	background: var(--color-violet,#5D3EA8);
+	border: var(--color-violet,#5D3EA8);
+	color: var(--color-white,#FFFFFF);
+	margin-bottom: 15px;
+}
+
+
+.card-Health-Systems{
+	display: flex;
+	width: 100%;
+	max-width: 1280px;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+
+.card-container-health{
+	display: flex;
+	width: 100%;
+	max-width: 1280px;
+	padding: 112px 30px 325px;
+	flex-wrap: wrap;
+	justify-content:space-between;
+	align-items: center;
+
+}
+
+.card-Health-Systems-title-h2{
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 33px;
+	line-height: 43px;
+	letter-spacing: 0.5px;
+	color: var(--color-black,#0A044B);
+	padding-bottom: 26px;
+}
+
+.card-Health-Systems-svg{
+	width: 50%;
+	height: 480px;
+}
+
+.card-Health-Systems-text{
+	width: 510px;
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	color: var(--color-black,#0A044B);	
+}
