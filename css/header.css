@@ -66,7 +66,7 @@
 .button::after{
 	position: absolute;
 	content: "";
-	transform: translate(+70%,+45%);
+	transform: translate(+70%,+60%);
 	background-image: url("/img/button/Vector.svg");
 	background-size: contain;
 	width: 10px;
@@ -98,7 +98,7 @@
 .header-vraper-bottons-list-li-button-2::after{
 	position: absolute;
 	content: "";
-	transform: translate(+70%,+40%);
+	transform: translate(+70%,+60%);
 	background-image: url("/img/header/buttons.svg");
 	background-size: contain;
 	width: 10px;

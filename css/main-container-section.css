@@ -16,25 +16,7 @@
 }
 
 .main-container-section-1-block{
-	height: 130px;
-}
-
-.main-container-section-1-title-h2{
-	width: 100%;
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 44px;
-	line-height: 58px;
-	letter-spacing: 1px;
-	color: var(--color-amolet-black,#000000);
-	padding-bottom: 80px;
-}
-
-.paytient-list-li{
 	width: 470px;
-	color: #000000;	
-	padding-bottom: 40px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
@@ -42,6 +24,22 @@
 	line-height: 43px;
 	letter-spacing: 0.5px;
 	color: var(--color-amolet-black,#000000);
+}
+
+.main-container-section-1-title-h2{
+	width: 100%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 43px;
+	letter-spacing: 0.5px;
+	color: var(--color-amolet-black,#000000);
+	padding-bottom: 80px;
+}
+
+.paytient-list-li{
+	padding-bottom: 40px;
 }
 
 .paytient-list-li:last-child{
@@ -65,23 +63,6 @@
 	color: var(--color-amolet-black,#000000);
 	padding-bottom: 20px;
 	width: 505px;
-}
-
-.main-container-section-1-text-block-text:first-child{
-	width: 469px;
-	font-size: 14px;
-}
-
-.main-container-section-1-text-block-text:nth-child(3){
-	font-size: 15px;
-	width: 480px;
-	padding-bottom: 0px;
-}
-
-.main-container-section-1-text-block-text:last-child{
-	padding-bottom: 0px;
-	width: 467px;
-	font-size: 16px;
 }
 
 .ads{
@@ -147,7 +128,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 46px;
+	font-size: 34px;
 	line-height: 58px;
 	letter-spacing: 1px;
 	color: var(--color-black,#0A044B);
@@ -218,7 +199,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 44px;
+	font-size: 34px;
 	line-height: 58px;
 	text-align: center;
 	letter-spacing: 1px;

@@ -21,7 +21,7 @@
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 33px;
+	font-size: 34px;
 	line-height: 43px;
 	letter-spacing: 0.5px;
 	color: var(--color-black,#0A044B);
@@ -58,7 +58,7 @@
 }
 
 
-.card-Health-Systems{
+.card-health-systems{
 	display: flex;
 	width: 100%;
 	max-width: 1280px;
@@ -78,23 +78,23 @@
 
 }
 
-.card-Health-Systems-title-h2{
+.card-health-systems-title-h2{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 400;
-	font-size: 33px;
+	font-size: 34px;
 	line-height: 43px;
 	letter-spacing: 0.5px;
 	color: var(--color-black,#0A044B);
 	padding-bottom: 26px;
 }
 
-.card-Health-Systems-svg{
+.card-health-systems-svg{
 	width: 50%;
 	height: 480px;
 }
 
-.card-Health-Systems-text{
+.card-health-systems-text{
 	width: 510px;
 	font-family: 'Inter';
 	font-style: normal;
